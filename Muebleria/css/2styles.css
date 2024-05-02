@@ -1,0 +1,13 @@
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-gap: 20pt;
+}
+
+
+.productosoficina{
+    display: flex;
+    margin-top: 100pt;
+    margin-right: 100pt;
+    margin-right: 100pt;
+}

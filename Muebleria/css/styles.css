@@ -1,0 +1,90 @@
+/* Estilos generales */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center
+    
+}
+.container{
+    margin: 0 auto;
+    padding: 20pt;
+}
+/*Estilos para la barra de navegacion */
+.Logo{
+    height: 120pt;
+    width: 120pt;
+}
+header{
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100pt;
+    width: 100%;
+    z-index: 1000;
+    background-color: orange;
+    color: Black;
+    padding: 20pt;
+}
+nav ul li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right; /* Alinea los elementos a la derecha*/
+}
+nav ul li {
+    display: inline;
+    margin-left: 40pt;
+}
+nav ul li:last-child a ¨{
+margin-right: 200pt; /* Aplica margen derecho solo al enlace del último elemento */
+}
+nav ul li.left {
+    float: left ; /* Alinea este elemento a la izquierda */
+    margin-left: 20pt; /* Elimina el margen izquierdo para el primer elemento */
+}
+nav ul li a {
+    color: Black;
+    text-decoration: none;
+    text-align: center;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20pt;
+    padding-top: 100pt; /* Ajusta el padding superior para dejar espacio para la barra de navegacion */
+}
+.carousel-inner{
+    width: 100%;
+    margin-top: 10pt;
+    padding: 350pt;
+}
+
+.rhlm{
+    display: flex;
+    justify-content: center;
+}
+.card1{
+margin-right: 200pt;
+border: 10px black; 
+}
+.card2{
+    margin-right: 250pt;
+    border: 10px black; 
+    }
+.card3{
+}
+
